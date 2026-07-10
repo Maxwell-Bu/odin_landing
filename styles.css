@@ -1,7 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .one {
     background-color: #1F2937;
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 124px;
+    padding-right: 124px;
 }
 
 .logo {
@@ -10,13 +20,14 @@
 }
 
 header {
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav {
-    font-size: 18px;
+nav,
+.subtext {
     color: #E5E7EB;
 }
 
@@ -26,4 +37,86 @@ ul, ol {
     margin: none;
     display: flex;
     gap: 16px;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 6px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 6px;
+}
+
+.hero {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.image {
+    background-color: #818387;
+    color: #F9FAF8;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroleft {
+    flex: 1;
+    gap: 4px;
+}
+
+.two {
+    padding-left: 124px;
+    padding-right: 124px;
+}
+
+h1 {
+    margin: 36px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.thing {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-bottom: 78px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.box {
+    width: 136px;
+    height: 136px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.text {
+    text-align: center;
+    flex: 0;
 }
